@@ -1,5 +1,5 @@
 body {
-  max-width: 40em;
+  max-width: clamp(320px, 90%, 900px);
   margin: 0 auto;
   padding: 5px;
   font-family: Georgia, serif;
@@ -10,4 +10,9 @@ body {
 h1, h2, h3 {
   font-family: sans-serif;
   font-weight: normal;
+  text-wrap: balance;
+}
+
+p {
+    max-width: 60ch;
 }
