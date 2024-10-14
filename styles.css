@@ -97,7 +97,7 @@ button,input[type=submit] {
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --bg: #1D4C4F;
+        --bg: #0D1321;
         --fg: #ECE9E9;
     }
 }
