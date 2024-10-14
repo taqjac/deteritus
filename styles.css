@@ -1,7 +1,7 @@
 :root {
     color-scheme: light dark;
-    --bg: #fff;
-    --fg: #000;
+    --bg: #ECE9E9;
+    --fg: #0D1321;
     line-height: 1.6;
     font-size: 17px;
     font-family: system-ui, sans-serif
@@ -48,7 +48,7 @@ figcaption,code {
 
 a,a:hover {
     text-decoration: underline;
-    text-decoration-color: dodgerblue;
+    text-decoration-color: #28B67E;
     text-decoration-thickness: 2px
 }
 
@@ -97,7 +97,7 @@ button,input[type=submit] {
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --bg: #15161b;
-        --fg: #fff
+        --bg: #1D4C4F;
+        --fg: #ECE9E9;
     }
 }
